@@ -28,51 +28,73 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">A Cycle of the West</dc:title>
 		<meta property="file-as" refines="#title">Cycle of the West, A</meta>
-		<dc:subject id="subject-1">Fur trade -- West (U.S.) -- History -- Poetry</dc:subject>
-		<dc:subject id="subject-2">West (U.S.) -- History -- Poetry</dc:subject>
-		<dc:subject id="subject-3">Glass, Hugh, approximately 1780-approximately 1833 -- Poetry</dc:subject>
+		<dc:subject id="subject-1">Frontier and pioneer life -- Poetry</dc:subject>
+		<dc:subject id="subject-2">Fur trade -- West (U.S.) -- History -- Poetry</dc:subject>
+		<dc:subject id="subject-3">West (U.S.) -- History -- Poetry</dc:subject>
+		<dc:subject id="subject-4">Glass, Hugh, approximately 1780-approximately 1833 -- Poetry</dc:subject>
+		<dc:subject id="subject-5">Indians of North America -- Wars -- Poetry</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">Unknown</meta>
+		<meta property="term" refines="#subject-1">sh2008104190</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">Unknown</meta>
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">Unknown</meta>
-		<meta property="se:subject">TAG</meta>
+		<meta property="authority" refines="#subject-4">LCSH</meta>
+		<meta property="term" refines="#subject-4">Unknown</meta>
+		<meta property="authority" refines="#subject-5">LCSH</meta>
+		<meta property="term" refines="#subject-5">Unknown</meta>
+		<meta property="se:subject">Poetry</meta>
 		<dc:description id="description">DESCRIPTION</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			LONG_DESCRIPTION
 		</meta>
 		<dc:language>en-US</dc:language>
+		<!-- The Song of Three Friends (transcription) -->
+		<dc:source>https://archive.org/details/songthree00neihrich</dc:source>
+		<!-- The Song of Three Friends (proofreading) -->
+		<dc:source>https://catalog.hathitrust.org/Record/000673224</dc:source>
+		<!-- The Song of Hugh Glass (transcription) -->
 		<dc:source>https://www.gutenberg.org/ebooks/53667</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<!-- The Song of Hugh Glass (proofreading) -->
+		<dc:source>https://archive.org/details/songofhughglass00neih</dc:source>
+		<!-- The Song of the Indian Wars (transcription and proofreading) -->
+		<dc:source>https://archive.org/details/bp_574832</dc:source>
+		<meta property="se:production-notes">1) A Cycle of the West is missing two epic poems, The Song of Jed Smith and The Song of the Messiah, which are not yet in the U.S. public domain. 2) Poem formatting for first chapter lines in The Song of the Indian Wars was adjusted to match the other epic poems.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">EBOOK_WIKI_URL</meta>
+		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Cycle_of_the_West</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/john-g-neihardt_a-cycle-of-the-west</meta>
 		<dc:creator id="author">John G. Neihardt</dc:creator>
 		<meta property="file-as" refines="#author">Neihardt, John G.</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/John_G._Neihardt</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:name.person.full-name" refines="#author">John Gneisenau Neihardt</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/John_Neihardt</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79081519</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
-		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="artist-1">Wilhelm Wallander</dc:contributor>
+		<meta property="file-as" refines="#artist-1">Wallander, Wilhelm</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist-1">https://en.wikipedia.org/wiki/Josef_Wilhelm_Wallander</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist-1">http://id.loc.gov/authorities/names/n88671866</meta>
+		<meta property="role" refines="#artist-1" scheme="marc:relators">art</meta>
+		<dc:contributor id="artist-2">Alfred Wahlberg</dc:contributor>
+		<meta property="file-as" refines="#artist-2">Wahlberg, Alfred</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist-2">https://en.wikipedia.org/wiki/Alfred_Wahlberg</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist-2">http://id.loc.gov/authorities/names/n97111289</meta>
+		<meta property="role" refines="#artist-2" scheme="marc:relators">art</meta>
+		<dc:contributor id="transcriber-1">Richard Tonsing</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Tonsing, Richard</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="transcriber-2">The Online Distributed Proofreading Team</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Online Distributed Proofreading Team, The</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">Emma Sweeney</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Sweeney, Emma</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://www.linkedin.com/in/emma-sweeney-554927190/</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">trc</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 	</metadata>
 	<manifest>
