@@ -65,7 +65,7 @@
 		<!-- The Song of the Indian Wars (transcription and proofreading) -->
 		<dc:source>https://archive.org/details/bp_574832</dc:source>
 		<meta property="se:production-notes">1) A Cycle of the West is missing two epic poems, The Song of Jed Smith and The Song of the Messiah, which are not yet in the U.S. public domain. 2) Poem formatting for first chapter lines in The Song of the Indian Wars was adjusted to match the other epic poems.</meta>
-		<meta property="se:word-count">87046</meta>
+		<meta property="se:word-count">86357</meta>
 		<meta property="se:reading-ease.flesch">76.05</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Cycle_of_the_West</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/john-g-neihardt_a-cycle-of-the-west</meta>
