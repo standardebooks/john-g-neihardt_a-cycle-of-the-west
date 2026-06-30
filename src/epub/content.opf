@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/john-g-neihardt/a-cycle-of-the-west</dc:identifier>
 		<dc:date>2024-05-10T02:30:09Z</dc:date>
 		<meta property="dcterms:modified">2024-05-10T02:30:09Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -44,7 +45,7 @@
 		<meta property="term" refines="#subject-4">Unknown</meta>
 		<meta property="authority" refines="#subject-5">LCSH</meta>
 		<meta property="term" refines="#subject-5">Unknown</meta>
-		<meta property="se:subject">Poetry</meta>
+		<meta property="schema:genre">Poetry</meta>
 		<dc:description id="description">A series of epic poems that recounts the history, legends, and mythology of the American West.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;A Cycle of the West&lt;/i&gt; is an anthology of five epic poems published over 26 years: &lt;i&gt;The Song of Three Friends&lt;/i&gt;, &lt;i&gt;The Song of Hugh Glass&lt;/i&gt;, &lt;i&gt;The Song of Jed Smith&lt;/i&gt;, &lt;i&gt;The Song of the Indian Wars&lt;/i&gt;, and &lt;i&gt;The Song of the Messiah&lt;/i&gt;. &lt;a href="https://standardebooks.org/ebooks/john-g-neihardt"&gt;John G. Neihardt&lt;/a&gt; captures the essence of the American West through the intertwining stories of various historical and mythic figures. As the cycle unfolds, the vivid imagery, rich symbolism, and lyrical verse paint a vivid portrait of pivotal moments in Western history, from the brutal survival story of Hugh Glass in &lt;i&gt;The Song of Hugh Glass&lt;/i&gt; to the clashes between settlers and Native Americans in &lt;i&gt;The Song of the Indian Wars&lt;/i&gt;.&lt;/p&gt;
@@ -64,28 +65,29 @@
 		<dc:source>https://archive.org/details/songofhughglass00neih</dc:source>
 		<!-- The Song of the Indian Wars (transcription and proofreading) -->
 		<dc:source>https://archive.org/details/bp_574832</dc:source>
-		<meta property="se:production-notes">1) A Cycle of the West is missing two epic poems, The Song of Jed Smith and The Song of the Messiah, which are not yet in the U.S. public domain. 2) Poem formatting for first chapter lines in The Song of the Indian Wars was adjusted to match the other epic poems.</meta>
-		<meta property="se:word-count">86358</meta>
-		<meta property="se:reading-ease.flesch">76.05</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Cycle_of_the_West</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/john-g-neihardt_a-cycle-of-the-west</meta>
+		<meta property="schema:wordCount">86358</meta>
+		<meta property="schema:educationalLevel">76.05</meta>
+		<link href="https://en.wikipedia.org/wiki/Cycle_of_the_West" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/john-g-neihardt_a-cycle-of-the-west" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">John G. Neihardt</dc:creator>
 		<meta property="file-as" refines="#author">Neihardt, John G.</meta>
-		<meta property="se:name.person.full-name" refines="#author">John Gneisenau Neihardt</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/John_Neihardt</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79081519</meta>
+		<meta property="schema:alternateName" refines="#author">John Gneisenau Neihardt</meta>
+		<link href="https://en.wikipedia.org/wiki/John_Neihardt" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79081519.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">dto</meta>
 		<dc:contributor id="artist-1">Wilhelm Wallander</dc:contributor>
 		<meta property="file-as" refines="#artist-1">Wallander, Wilhelm</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist-1">https://en.wikipedia.org/wiki/Josef_Wilhelm_Wallander</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist-1">http://id.loc.gov/authorities/names/n88671866</meta>
+		<link href="https://en.wikipedia.org/wiki/Josef_Wilhelm_Wallander" refines="#artist-1" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n88671866.html" refines="#artist-1" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist-1" scheme="marc:relators">art</meta>
 		<dc:contributor id="artist-2">Alfred Wahlberg</dc:contributor>
 		<meta property="file-as" refines="#artist-2">Wahlberg, Alfred</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist-2">https://en.wikipedia.org/wiki/Alfred_Wahlberg</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist-2">http://id.loc.gov/authorities/names/n97111289</meta>
+		<link href="https://en.wikipedia.org/wiki/Alfred_Wahlberg" refines="#artist-2" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n97111289.html" refines="#artist-2" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist-2" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Richard Tonsing</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Tonsing, Richard</meta>
@@ -95,7 +97,7 @@
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Emma Sweeney</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Sweeney, Emma</meta>
-		<meta property="se:url.homepage" refines="#producer-1">https://www.linkedin.com/in/emma-sweeney-554927190/</meta>
+		<link href="https://www.linkedin.com/in/emma-sweeney-554927190/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -105,7 +107,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com/</meta>
+		<link href="https://alexcabal.com/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>

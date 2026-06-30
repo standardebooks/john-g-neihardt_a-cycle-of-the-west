@@ -1,0 +1,1 @@
+1) A Cycle of the West is missing two epic poems, The Song of Jed Smith and The Song of the Messiah, which are not yet in the U.S. public domain. 2) Poem formatting for first chapter lines in The Song of the Indian Wars was adjusted to match the other epic poems.
