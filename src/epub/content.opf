@@ -30,11 +30,11 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">A Cycle of the West</dc:title>
 		<meta property="file-as" refines="#title">Cycle of the West, A</meta>
-		<dc:subject id="subject-1">Frontier and pioneer life -- Poetry</dc:subject>
-		<dc:subject id="subject-2">Fur trade -- West (U.S.) -- History -- Poetry</dc:subject>
-		<dc:subject id="subject-3">West (U.S.) -- History -- Poetry</dc:subject>
-		<dc:subject id="subject-4">Glass, Hugh, approximately 1780-approximately 1833 -- Poetry</dc:subject>
-		<dc:subject id="subject-5">Indians of North America -- Wars -- Poetry</dc:subject>
+		<dc:subject id="subject-1">Frontier and pioneer life--Poetry</dc:subject>
+		<dc:subject id="subject-2">Fur trade--West (U.S.)--History--Poetry</dc:subject>
+		<dc:subject id="subject-3">West (U.S.)--History--Poetry</dc:subject>
+		<dc:subject id="subject-4">Glass, Hugh, approximately 1780-approximately 1833--Poetry</dc:subject>
+		<dc:subject id="subject-5">Indians of North America--Wars--Poetry</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh2008104190</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
