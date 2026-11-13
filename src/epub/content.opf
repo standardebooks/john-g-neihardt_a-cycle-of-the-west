@@ -74,7 +74,7 @@
 		<dc:creator id="author">John G. Neihardt</dc:creator>
 		<meta property="file-as" refines="#author">Neihardt, John G.</meta>
 		<meta property="schema:alternateName" refines="#author">John Gneisenau Neihardt</meta>
-		<link href="https://en.wikipedia.org/wiki/John_Neihardt" refines="#author" rel="schema:sameAs"/>
+		<link href="https://en.wikipedia.org/wiki/John_G._Neihardt" refines="#author" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n79081519.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
